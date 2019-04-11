@@ -3,7 +3,7 @@ import './main.css';
 
 const Result = props => {
     
-    const { error, city, date, pressure, sunrise, sunset, temp, wind } = props.weather;
+    const { error, city, date, pressure, temp, wind } = props.weather;
     
     let content = null;
 
